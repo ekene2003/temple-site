@@ -1,0 +1,197 @@
+/* mobile view */
+@media screen and (max-width: 768px) {
+  .about-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/pexels-tom-fisk-3338019.jpg");
+    background-position: center;
+    height: 18rem;
+    background-size: cover;
+    background-color: #373434;
+    background-blend-mode: overlay;
+  }
+  .nav-item {
+    text-align: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid gray;
+  }
+
+  .fa-arrow-down {
+    color: white;
+    height: 1.5rem;
+  }
+  .container-fluid {
+    padding: 5% 7%;
+  }
+  .date p {
+    margin: 0.5rem 0;
+  }
+  .est-year {
+    position: absolute;
+    right: 0;
+    top: -3rem;
+    z-index: 9;
+  }
+  .est-year h1 {
+    font-size: 5rem;
+    padding: 0;
+  }
+  .logo h1 {
+    color: #cdc8c8;
+  }
+  .logo h1:hover {
+    color: black;
+  }
+  .video-section {
+    background-color: #fdf8ef;
+    width: 100%;
+  }
+  .about-video {
+    height: 20%;
+    width: 100%;
+  }
+  /* testimonial */
+  .testionial-section {
+    background-color: #002d4b;
+  }
+  .user-img {
+    height: 4rem;
+    width: 4rem;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .remarks {
+    color: rgb(181, 179, 179);
+  }
+  .workers-section {
+    background-color: #f2f2ef;
+  }
+  .worker-card {
+    background-color: white;
+    margin-top: 1.5rem;
+    padding: 0;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+      rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  }
+  .worker-card img {
+    background: black;
+  }
+
+  .worker-write-up {
+    color: black;
+    padding: 1rem;
+  }
+
+  .worker-img {
+    height: 20rem !important;
+    object-fit: cover;
+    margin: 0 0;
+  }
+}
+/* dektop view */
+@media screen and (min-width: 768px) {
+  .about-nav {
+    flex: 1;
+    justify-content: end;
+    display: flex;
+    position: absolute;
+    right: 0;
+    /* background-color: #002d4b; */
+    width: 50%;
+    padding: 1.5rem;
+    z-index: 9999;
+  }
+  .about-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/pexels-tom-fisk-3338019.jpg");
+    background-position: center;
+    height: 19rem;
+    background-size: cover;
+    background-color: #373434;
+    background-blend-mode: overlay;
+    width: 100%;
+  }
+  .fa-arrow-down {
+    color: white;
+    height: 1.5rem;
+  }
+  .dropdown-menu {
+    font-size: 0.8rem;
+  }
+
+  .container-fluid {
+    padding: 5% 7%;
+  }
+  .about-nav {
+    padding: 1rem 5rem;
+  }
+  .date p {
+    margin: 0.5rem 0;
+  }
+  .est-year {
+    position: absolute;
+    right: 0;
+    top: -3rem;
+    z-index: 999;
+  }
+  .est-year h1 {
+    font-size: 5rem;
+    padding: 0;
+  }
+  .logo {
+    position: relative;
+    width: 100%;
+    /* height: 100vh; */
+  }
+  .logo h1 {
+    color: #cdc8c8;
+  }
+  .logo h1:hover {
+    color: black;
+  }
+  .video-section {
+    background-color: #fdf8ef;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .about-video {
+    height: 15%;
+    width: 100%;
+  }
+  /* testimonial */
+  .testionial-section {
+    background-color: #002d4b;
+  }
+  .user-img {
+    height: 4rem;
+    width: 4rem;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .remarks {
+    color: rgb(181, 179, 179);
+  }
+  .workers-section {
+    background-color: #f2f2ef;
+  }
+  .worker-card {
+    position: relative;
+  }
+  .worker-card img:hover {
+    filter: blur(7px);
+    filter: drop-shadow(2);
+  }
+  .worker-card img:hover + .worker-write-up {
+    opacity: 1;
+  }
+  .worker-write-up {
+    position: absolute;
+    bottom: 4rem;
+    margin-left: 1rem;
+    color: white;
+    opacity: 0;
+  }
+}

@@ -1,0 +1,41 @@
+.left-contact {
+  background-color: #002d4b;
+  padding: 2rem;
+}
+.left-contact svg {
+  color: white;
+  border: 1px solid white;
+}
+.left-contact .mobile-right a {
+  color: white;
+}
+.contact-btn {
+  background-color: #002d4b;
+  color: white;
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+.contact-btn:hover {
+  background-color: #011a2a;
+  color: white;
+}
+.map-wrap {
+  width: 100%;
+  overflow: hidden;
+}
+.subscribe-form {
+  background-color: rgba(16, 16, 28, 0.803);
+  background-image: url("../images/20220405_065020.jpg");
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-attachment: fixed;
+}
+.s-form {
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .s-form {
+    width: 80%;
+  }
+}

@@ -1,0 +1,81 @@
+.que-p {
+  display: none;
+}
+.remove {
+  display: none;
+}
+.question {
+  cursor: pointer;
+}
+.pagination {
+  display: flex;
+  justify-content: end;
+  cursor: pointer;
+}
+.pagination li {
+  padding: 1rem;
+  border: 1px solid #002d4b;
+  font-weight: bold;
+  color: black;
+}
+.active-li {
+  background-color: #002d4b;
+  color: white !important;
+}
+.photogrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-auto-rows: 240px;
+}
+
+.photogrid > *:nth-child(1) {
+  background-size: cover !important;
+  background-position: center;
+  background: url("../images/dredger-2431190_1920.jpg");
+}
+
+.photogrid > *:nth-child(2) {
+  background-size: cover !important;
+  background-position: center;
+  background: url("../images/marine-4019745_1280.jpg");
+}
+
+.photogrid > *:nth-child(3) {
+  background-size: cover !important;
+  background-position: center;
+  background: url("../images/pexels-alexander-bobrov-3278012.jpg");
+}
+
+.photogrid > *:nth-child(4) {
+  background-size: cover !important;
+  background-position: center;
+  background: url("../images/20220906_102447.jpg");
+}
+
+.photogrid > *:nth-child(5) {
+  background-size: cover !important;
+  background-position: center;
+  background: url("../images/pexels-marcello-sokal-8555467.jpg");
+}
+
+.photogrid > *:nth-child(6) {
+  background-size: cover !important;
+  background-position: center;
+  background: url("../images/pexels-tom-fisk-3338019.jpg");
+}
+
+.photogrid > *:nth-child(7) {
+  background-size: cover !important;
+  background-position: center;
+  background: url("../images/image-15-copyright-1536x1146.jpg");
+}
+
+.photogrid > *:nth-child(8) {
+  background-size: cover !important;
+  background-position: center;
+  background: url("../images/download\ \(5\).jpeg");
+}
+
+.card-tall {
+  grid-row: span 2 / auto;
+}

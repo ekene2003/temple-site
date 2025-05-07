@@ -1,0 +1,55 @@
+@media screen and (max-width: 768px) {
+  .pro1 {
+    position: relative;
+  }
+  .pro1-right {
+    /* background-attachment: fixed; */
+    background-color: white;
+    right: 0;
+    top: 0;
+    position: relative !important;
+  }
+  .up-img {
+    display: none;
+  }
+  .pro-2 {
+    background-image: url("../images/pexels-cytonn-photography-955395.jpg") !important;
+  }
+  .pro-3 {
+    background-image: url("../images/240_F_232443263_8sq6Jg2YX9tma4cP0I4fNXwhpCJyC9IA.jpg") !important;
+  }
+  .pro-4 {
+    background-image: url("../images/pexels-marcello-sokal-8555467.jpg") !important;
+  }
+  .pro-5 {
+    background-image: url("../images/pexels-lucas-oliveira-15165681.jpg") !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .pro1 {
+    position: relative;
+  }
+  .pro1-right {
+    /* background-attachment: fixed; */
+    background-color: white;
+    right: 0;
+    top: 0;
+  }
+  iframe {
+    display: none;
+  }
+  .pro-2 {
+    background-image: url("../images/pexels-cytonn-photography-955395.jpg") !important;
+  }
+  .pro-3 {
+    background-image: url("../images/240_F_232443263_8sq6Jg2YX9tma4cP0I4fNXwhpCJyC9IA.jpg") !important;
+    /* background-position: 20rem 0 0 0; */
+  }
+  .pro-4 {
+    background-image: url("../images/pexels-marcello-sokal-8555467.jpg") !important;
+  }
+  .pro-5 {
+    background-image: url("../images/pexels-lucas-oliveira-15165681.jpg") !important;
+  }
+}
