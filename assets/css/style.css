@@ -534,16 +534,8 @@
   /* vision section style */
   .vision-section {
     padding: 6rem 0;
-    /* background-color: #fcf8f2; */
-    background-image: url("../images/pexels-tom-fisk-3338019.jpg");
-    
-    background-size: cover;
-    /* background-color: rgba(56, 52, 52, 0.755); */
-    background-color: rgba(14, 0, 0, 0.815);
-    background-blend-mode: overlay;
-    background-position: center;
-    border-radius: 4rem 4rem 0rem 0rem;
-    /* background-attachment: fixed; */
+
+    height: 80vh;
   }
  .vision-2{
   background-color: #002d4b;
@@ -562,7 +554,11 @@
   }
   /* why section styling */
   .why-section {
-    background-color: #002d4b;
+    background-image: url("../images/pexels-tom-fisk-3338019.jpg");
+    background-size: cover;
+    background-color: rgba(14, 0, 0, 0.884);
+    background-blend-mode: overlay;
+    background-position: center;
   }
 
   .why-h {
