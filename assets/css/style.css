@@ -563,11 +563,28 @@
 
   .why-h {
     color: white;
+    font-size: 4rem !important;
   }
-  .why-p {
-    color: white;
-    text-align: center;
-  }
+ .why-ul li{
+  margin: 1rem 0;
+ }
+ /* provision section styling */
+ .ps-1{
+  background-image: url('../images/pexels-umaraffan499-87236.jpg');
+  background-size: cover;
+  height: 80vh;
+ }
+ .ps-2{
+  background-image: url('../images/container-operation-port-series.jpg');
+  background-size: cover;
+  height: 80vh;
+ }
+ .ps-writeups h1{
+  font-size: 2.5rem !important;
+ }
+ .ps-writeups p{
+  font-size: 1.1rem !important;
+ }
   /* service section */
   .service-section {
     background-color: #fcf8f2;
@@ -631,6 +648,7 @@
   }
   .write-up-sec {
     background-color: #002d4b;
+    width: 100%;
   }
   .write-li {
     list-style-type: none;
@@ -641,10 +659,12 @@
     width: 2rem;
     /* border: 3px solid #ffbb33; */
     border: 3px solid rgb(177, 30, 30);
-
     padding: 0.6rem;
     border-radius: 50%;
     color: rgb(177, 30, 30);
+  }
+  .contact-l{
+    padding-left: 4rem !important;
   }
   .mobile-right a {
     color: grey;
