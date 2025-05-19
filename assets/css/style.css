@@ -68,13 +68,14 @@
   .navbar {
     display: flex;
     align-items: center;
-    position: absolute;
-    top: 0;
     width: 100%;
-    padding: 0 0.9rem;
-    background-color: #002d4b;
+    padding: 1rem 0.9rem !important;
     z-index: 999;
-    /* overflow: hidden; */
+    background-color:white !important ;
+   
+  }
+  .desktop-nav{
+    display: none !important;
   }
   .nav-item {
     text-align: center;
@@ -83,21 +84,22 @@
   }
   .navbar-toggler {
     background-color: white;
-    color: white !important;
+    color: #002d4b !important;
+    right: 0;
+    
   }
   .navbar-toggler-icon {
     color: #002d4b;
   }
   .navbar-nav {
     flex: 0.5;
-    /* display: flex; */
-    /* justify-content: center; */
-    background-color: #002d4b;
+    background-color: white;
     padding: 0.5rem;
+    margin-top: 2rem;
   }
   .subscribe-btn {
     padding: 0.5rem;
-    background-color: #ffbb33;
+    background-color: rgb(177, 30, 30);
     border: none;
     color: white;
     font-size: 1.1rem;
@@ -109,33 +111,34 @@
   /* hero-section styling */
 
   .banner-1 {
-    height: 40rem;
+    height: 35rem;
     padding: 9rem 3rem !important;
-    background-image: url("../images/pexels-alexander-bobrov-3278012.jpg");
-    background-color: #01050399;
+    background-image: url("../images/pexels-umaraffan499-87236.jpg");
+    background-color: #0f020299;
     background-blend-mode: overlay;
     background-size: cover;
+    background-position:center;
   }
   .banner-2 {
-    height: 40rem;
+    height: 35rem;
     padding: 9rem 3rem !important;
-    background-image: url("../images/dredger-2431190_1920.jpg");
-    background-color: #01050399;
+    background-image: url("../images/container-operation-port-series.jpg");
+    background-color: #0f020299;
     background-blend-mode: overlay;
     background-size: cover;
   }
   .banner-3 {
-    height: 40rem;
+    height: 35rem;
     padding: 9rem 3rem !important;
-    background-image: url("../images/pexels-tom-fisk-3338019.jpg");
-    background-color: #01050399;
+    background-image: url("../images/aerial-view-cargo-ship-cargo-container-harbor\ \(1\).jpg");
+    background-color: #0f020299;
     background-blend-mode: overlay;
     background-size: cover;
   }
   .banner-right {
     background-color: #002d4b;
     padding: 2rem 2.5rem;
-    height: 25rem;
+    height: 30rem;
   }
   .tittle {
     font-size: 3.5rem;
@@ -146,8 +149,9 @@
     padding: 0.7rem;
     color: white;
     border: none;
-    background-color: #ffbb33;
-    /* border-radius: 0.5rem; */
+    background-color: rgb(177, 30, 30);
+    
+    border-radius: 0.3rem;
   }
   .b-right-h {
     color: white;
@@ -163,7 +167,7 @@
   .pre-btn,
   .next-btn {
     position: absolute;
-    top: 85%;
+    top: 90%;
   }
   .pre-btn {
     left: 75% !important;
@@ -176,14 +180,7 @@
     padding: 5rem 0;
     background-color: #fcf8f2;
   }
-  .about-img {
-    width: 60%;
-    height: 15rem;
-    object-fit: cover;
-  }
-  .about-img:hover {
-    transform: scale(1.1);
-  }
+
   .about-left {
     display: flex;
     flex-direction: column;
@@ -208,22 +205,21 @@
   }
   .about-title {
     color: #002d4b;
+    text-align: center;
   }
   .about-p {
     color: grey;
+    margin-top:2rem;
+    text-align: center;
   }
 
   /* vision section style */
-  .vision-section {
-    padding: 3rem 0;
-    /* background-color: #fcf8f2; */
-    background-image: url("../images/pexels-tom-fisk-3338019.jpg");
-    background-size: cover;
-    background-color: rgba(56, 52, 52, 0.755);
-    background-blend-mode: overlay;
-    background-position: center;
-    background-attachment: fixed;
-  }
+
+  .vision-2{
+    background-color: #002d4b;
+    border-top-right-radius: 3rem;
+    border-top-left-radius: 3rem;
+   }
 
   .vision-wrap {
     padding: 1rem;
@@ -238,16 +234,39 @@
   }
   /* why section styling */
   .why-section {
-    background-color: #002d4b;
+    background-image: url("../images/pexels-tom-fisk-3338019.jpg");
+    background-size: cover;
+    background-color: rgba(14, 0, 0, 0.884);
+    background-blend-mode: overlay;
+    background-position: center;
   }
 
   .why-h {
     color: white;
+    text-align: center;
   }
   .why-p {
     color: white;
     text-align: center;
   }
+  /* provision section styling */
+ .ps-1{
+  background-image: url('../images/pexels-umaraffan499-87236.jpg');
+  background-size: cover;
+  height: 20rem !important;
+  
+ }
+ .ps-2{
+  background-image: url('../images/container-operation-port-series.jpg');
+  background-size: cover;
+  height: 50vh;
+ }
+ .ps-writeups h1{
+  font-size: 1.5rem !important;
+ }
+ .ps-writeups p{
+  font-size: 1.1rem !important;
+ }
   /* service section */
   .service-section {
     background-color: #fcf8f2;
@@ -398,8 +417,6 @@
     /* border-radius: 0.4rem; */
     /* background-color: #4581b5; */
     background-color: rgb(177, 30, 30);
-
-  
     border: none;
     color: white;
     width: 100%;
@@ -491,15 +508,7 @@
     background-color: #fcf8f2;
     height: 90vh;
   }
-  .about-img {
-    width: 50%;
-    height: 24rem;
-    object-fit: cover;
-  }
-  .about-img:hover {
-    transform: scale(1.05);
-    z-index: 9;
-  }
+
   .about-left {
     display: flex;
     gap: 1rem;
@@ -534,7 +543,6 @@
   /* vision section style */
   .vision-section {
     padding: 6rem 0;
-
     height: 80vh;
   }
  .vision-2{
