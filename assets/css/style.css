@@ -57,6 +57,65 @@
   background-color:rgb(177, 30, 30) ;
   height: 2px;
 }
+/* From Uiverse.io by vinodjangid07 */ 
+#checkbox {
+  display: none;
+}
+
+.toggle {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition-duration: .5s;
+}
+
+.bars {
+  width: 100%;
+  height: 3px;
+  background-color: #4581b5;
+  border-radius: 4px;
+}
+
+#bar2 {
+  transition-duration: .8s;
+}
+
+#bar1,#bar3 {
+  width: 70%;
+}
+
+#checkbox:checked + .toggle .bars {
+  position: absolute;
+  transition-duration: .5s;
+}
+
+#checkbox:checked + .toggle #bar2 {
+  transform: scaleX(0);
+  transition-duration: .5s;
+}
+
+#checkbox:checked + .toggle #bar1 {
+  width: 100%;
+  transform: rotate(45deg);
+  transition-duration: .5s;
+}
+
+#checkbox:checked + .toggle #bar3 {
+  width: 100%;
+  transform: rotate(-45deg);
+  transition-duration: .5s;
+}
+
+#checkbox:checked + .toggle {
+  transition-duration: .5s;
+  transform: rotate(180deg);
+}
 /* mobile view */
 @media screen and (max-width: 768px) {
   .load-img {
@@ -118,6 +177,7 @@
     background-blend-mode: overlay;
     background-size: cover;
     background-position:center;
+    text-align: center;
   }
   .banner-2 {
     height: 35rem;
@@ -126,6 +186,8 @@
     background-color: #0f020299;
     background-blend-mode: overlay;
     background-size: cover;
+    text-align: center;
+
   }
   .banner-3 {
     height: 35rem;
@@ -134,11 +196,13 @@
     background-color: #0f020299;
     background-blend-mode: overlay;
     background-size: cover;
+    text-align: center;
+
   }
   .banner-right {
     background-color: #002d4b;
     padding: 2rem 2.5rem;
-    height: 30rem;
+    height: 28rem;
   }
   .tittle {
     font-size: 3.5rem;
@@ -187,13 +251,7 @@
     /* gap: 1rem; */
     position: relative;
   }
-  .sub-img {
-    position: absolute;
-    width: 60%;
-    right: 1rem;
-    height: 14rem;
-    top: 2rem;
-  }
+  
   .about-right {
     padding-top: 3rem;
     flex-direction: column;
@@ -205,12 +263,16 @@
   }
   .about-title {
     color: #002d4b;
-    text-align: center;
+    text-align: center !important;
   }
   .about-p {
     color: grey;
-    margin-top:2rem;
+    margin-top:1rem;
     text-align: center;
+  }
+  .about-b{
+    text-align: center !important;
+    font-weight: bold;
   }
 
   /* vision section style */
@@ -227,6 +289,9 @@
     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
       rgba(17, 17, 26, 0.1) 0px 0px 8px;
     margin-top: 1.5rem;
+  }
+  .vision-img{
+    width: 100% !important;
   }
   .v-wrap {
     display: flex;
@@ -349,6 +414,9 @@
     color: grey;
     text-decoration: none;
     margin-left: 1rem;
+  }
+  .contact-l{
+    padding: 2rem;
   }
   iframe {
     margin-top: 2rem;
@@ -691,6 +759,7 @@
   }
 }
 @media screen and (min-width: 1024px) {
+  
   .navbar-nav {
     flex: 0.5;
     justify-content: end;
