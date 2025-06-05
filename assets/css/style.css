@@ -51,6 +51,7 @@
   height: 2px;
   background-color: rgb(230, 229, 229);
   margin-bottom: 1rem;
+  padding: 0 !important;
 }
 .dot{
   width: 10rem;
@@ -60,10 +61,7 @@
 /* From Uiverse.io by vinodjangid07 */ 
 #checkbox {
   display: none;
-  
-
 }
-
 .toggle {
   position: relative;
   width: 35px;
@@ -255,10 +253,7 @@
     flex-direction: column;
     justify-content: center;
   }
-  .about-small {
-    font-size: 1rem;
-    color: #ffbb33;
-  }
+ 
   .about-title {
     color: #002d4b;
     text-align: center !important;
@@ -299,7 +294,7 @@
   .why-section {
     background-image: url("../images/pexels-tom-fisk-3338019.jpg");
     background-size: cover;
-    background-color: rgba(14, 0, 0, 0.884);
+    background-color: rgba(12, 10, 10, 0.884);
     background-blend-mode: overlay;
     background-position: center;
   }
@@ -404,10 +399,11 @@
   .contact-wrap svg {
     height: 1rem;
     width: 1rem;
-    border: 3px solid #ffbb33;
     padding: 0.6rem;
     border-radius: 50%;
-    color: #ffbb33;
+    color: rgb(177, 30, 30);
+    border: 2px solid rgb(177, 30, 30);
+
   }
   .mobile-right a {
     color: grey;
@@ -575,7 +571,9 @@
     background-color: #fcf8f2;
     height: 90vh;
   }
-
+  .about-b{
+    font-weight: bold;
+  }
   .about-left {
     display: flex;
     gap: 1rem;
@@ -733,7 +731,7 @@
     height: 2rem;
     width: 2rem;
     /* border: 3px solid #ffbb33; */
-    border: 3px solid rgb(177, 30, 30);
+    border: 2px solid rgb(177, 30, 30);
     padding: 0.6rem;
     border-radius: 50%;
     color: rgb(177, 30, 30);
