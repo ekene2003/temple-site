@@ -60,6 +60,8 @@
 /* From Uiverse.io by vinodjangid07 */ 
 #checkbox {
   display: none;
+  
+
 }
 
 .toggle {
@@ -73,6 +75,7 @@
   justify-content: center;
   gap: 10px;
   transition-duration: .5s;
+  background-color: #fff;
 }
 
 .bars {
@@ -125,13 +128,13 @@
   }
   /* header styling */
   .navbar {
-    display: flex;
-    align-items: center;
+     display: flex; 
+     align-items: center;
+    justify-content: space-between !important;
     width: 100%;
     padding: 1rem 0.9rem !important;
     z-index: 999;
     background-color:white !important ;
-   
   }
   .desktop-nav{
     display: none !important;
@@ -141,20 +144,15 @@
     padding: 0.5rem;
     border-bottom: 1px solid gray;
   }
-  .navbar-toggler {
-    background-color: white;
-    color: #002d4b !important;
-    right: 0;
-    
-  }
-  .navbar-toggler-icon {
-    color: #002d4b;
-  }
+  
   .navbar-nav {
     flex: 0.5;
     background-color: white;
     padding: 0.5rem;
     margin-top: 2rem;
+  }
+  .toogler{
+    margin-left: 3rem;
   }
   .subscribe-btn {
     padding: 0.5rem;
@@ -759,7 +757,6 @@
   }
 }
 @media screen and (min-width: 1024px) {
-  
   .navbar-nav {
     flex: 0.5;
     justify-content: end;
