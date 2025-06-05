@@ -120,7 +120,8 @@
 /* mobile view */
 @media screen and (max-width: 768px) {
   .load-img {
-    width: 50%;
+    /* width: 19rem; */
+    height: 10rem !important;
     height: 35vh;
     object-fit: cover;
   }
@@ -133,6 +134,10 @@
     padding: 1rem 0.9rem !important;
     z-index: 999;
     background-color:white !important ;
+  }
+  .navbar-toggler{
+  margin-left: 3rem;
+    
   }
   .desktop-nav{
     display: none !important;
