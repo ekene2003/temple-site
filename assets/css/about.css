@@ -1,36 +1,41 @@
 /* mobile view */
 @media screen and (max-width: 768px) {
+  h1{
+    /* font-size: 3rem !important; */
+  }
   .about-hero {
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url("../images/pexels-tom-fisk-3338019.jpg");
     background-position: center;
-    height: 18rem;
+    height: 10rem;
     background-size: cover;
     background-color: #373434;
     background-blend-mode: overlay;
   }
-  .nav-item {
-    text-align: center;
-    padding: 0.5rem;
-    border-bottom: 1px solid gray;
-  }
-
-  .fa-arrow-down {
-    color: white;
-    height: 1.5rem;
-  }
-  .container-fluid {
-    padding: 5% 7%;
-  }
+ 
   .date p {
     margin: 0.5rem 0;
+  }
+    .main-img{
+  width: 80%;
+  height: 20rem;
+  margin-top: 3rem;
+  }
+  .sub-img{
+  width: 15rem;
+  height: 15rem;
+  z-index: 999;
+  position: absolute;
+  top: 10rem;
+  right:1rem;
+  /* display: none; */
   }
   .est-year {
     position: absolute;
     right: 0;
-    top: -3rem;
+    top: 4rem;
     z-index: 9;
   }
   .est-year h1 {
@@ -43,10 +48,14 @@
   .logo h1:hover {
     color: black;
   }
+  .about-right{
+    display: flex;
+  }
   .video-section {
     background-color: #fdf8ef;
     width: 100%;
   }
+
   .about-video {
     height: 20%;
     width: 100%;
@@ -91,29 +100,32 @@
 }
 /* dektop view */
 @media screen and (min-width: 768px) {
-  .about-nav {
-    flex: 1;
-    justify-content: end;
-    display: flex;
-    position: absolute;
-    right: 0;
-    /* background-color: #002d4b; */
-    width: 50%;
-    padding: 1.5rem;
-    z-index: 9999;
-  }
+  
   .about-hero {
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url("../images/pexels-tom-fisk-3338019.jpg");
     background-position: center;
-    height: 19rem;
+    height: 10rem;
     background-size: cover;
     background-color: #373434;
     background-blend-mode: overlay;
     width: 100%;
   }
+  .main-img{
+  width: 20rem;
+  height: 20rem;
+  margin-top: 3rem;
+  }
+  .sub-img{
+  width: 24rem;
+  height: 24rem;
+  }
+  .main-img:hover{
+    z-index: 99;
+  }
+
   .fa-arrow-down {
     color: white;
     height: 1.5rem;
@@ -122,19 +134,23 @@
     font-size: 0.8rem;
   }
 
-  .container-fluid {
+  /* .container-fluid {
     padding: 5% 7%;
-  }
+  } */
+   .about-section2{
+    height:100%;
+    
+   }
   .about-nav {
-    padding: 1rem 5rem;
+    /* padding: 1rem 5rem; */
   }
   .date p {
     margin: 0.5rem 0;
   }
   .est-year {
     position: absolute;
-    right: 0;
-    top: -3rem;
+    right: 3rem;
+    top: 0rem;
     z-index: 999;
   }
   .est-year h1 {
@@ -153,12 +169,14 @@
     color: black;
   }
   .video-section {
-    background-color: #fdf8ef;
     width: 100%;
-    margin-bottom: 2rem;
+    /* margin-top: 5rem; */
+    margin-bottom: 0;
+    padding-bottom: 0;
+   
   }
   .about-video {
-    height: 15%;
+    /* height: 16%; */
     width: 100%;
   }
   /* testimonial */
@@ -174,24 +192,16 @@
   .remarks {
     color: rgb(181, 179, 179);
   }
-  .workers-section {
-    background-color: #f2f2ef;
-  }
-  .worker-card {
-    position: relative;
-  }
-  .worker-card img:hover {
-    filter: blur(7px);
-    filter: drop-shadow(2);
-  }
-  .worker-card img:hover + .worker-write-up {
-    opacity: 1;
-  }
-  .worker-write-up {
-    position: absolute;
-    bottom: 4rem;
-    margin-left: 1rem;
-    color: white;
-    opacity: 0;
-  }
+ .oilvid-section{
+  background-image: url('../images/industrial-port-container-yard.jpg');
+  background-size: cover;
+  height: 100vh;  
+  background-color: rgb(44, 43, 43);
+  background-blend-mode: overlay;
+ }
+ .oilvid-section svg{
+  height: 4rem; 
+ color: #002d4b;
+  
+ }
 }
