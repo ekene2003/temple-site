@@ -444,8 +444,8 @@
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
-    background-color: #030f1b;
-    background-attachment: fixed;
+    background-color: #04172b;
+    /* background-attachment: fixed; */
 
   }
 }
