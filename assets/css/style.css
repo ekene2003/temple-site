@@ -15,7 +15,9 @@
 .blue {
   color: #002d4b;
 }
-
+.nav-link{
+  color: #002d4b !important;
+}
 .bg-blue{
   background-color: #002d4b;
 }
