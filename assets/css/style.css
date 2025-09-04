@@ -152,6 +152,9 @@
     padding: 0.5rem;
     border-bottom: 1px solid gray;
   }
+  .nav-link{
+  color: #002d4b !important;
+}
   
   .navbar-nav {
     flex: 0.5;
