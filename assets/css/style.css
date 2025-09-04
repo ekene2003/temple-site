@@ -177,7 +177,7 @@
   .banner-1 {
     height: 35rem;
     padding: 9rem 3rem !important;
-    background-image: url("../images/pexels-umaraffan499-87236.jpg");
+    background-image: url("../images/pexels-umaraffan499-87236-min.jpg");
     background-color: #0f020299;
     background-blend-mode: overlay;
     background-size: cover;
@@ -187,7 +187,7 @@
   .banner-2 {
     height: 35rem;
     padding: 9rem 3rem !important;
-    background-image: url("../images/container-operation-port-series.jpg");
+    background-image: url("../images/container-operation-port-series-min.jpg");
     background-color: #0f020299;
     background-blend-mode: overlay;
     background-size: cover;
@@ -197,7 +197,7 @@
   .banner-3 {
     height: 35rem;
     padding: 9rem 3rem !important;
-    background-image: url("../images/aerial-view-cargo-ship-cargo-container-harbor\ \(1\).jpg");
+    background-image: url("../images/aerial-view-cargo-ship-cargo-container-harbor\ \(1\)-min.jpg");
     background-color: #0f020299;
     background-blend-mode: overlay;
     background-size: cover;
@@ -301,7 +301,7 @@
   }
   /* why section styling */
   .why-section {
-    background-image: url("../images/pexels-tom-fisk-3338019.jpg");
+    background-image: url("../images/pexels-tom-fisk-3338019-min.jpg");
     background-size: cover;
     background-color: rgba(12, 10, 10, 0.884);
     background-blend-mode: overlay;
@@ -319,13 +319,13 @@
   }
   /* provision section styling */
  .ps-1{
-  background-image: url('../images/pexels-umaraffan499-87236.jpg');
+  background-image: url('../images/pexels-umaraffan499-87236-min.jpg');
   background-size: cover;
   height: 20rem !important;
   
  }
  .ps-2{
-  background-image: url('../images/container-operation-port-series.jpg');
+  background-image: url('../images/container-operation-port-series-min.jpg');
   background-size: cover;
   height: 50vh;
  }
@@ -440,7 +440,7 @@
     margin-top: 2.5rem;
   }
   .works{
-    background-image: url('../images/industrial-port-container-yard.jpg');
+    background-image: url('../images/industrial-port-container-yard-min.jpg');
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
@@ -488,7 +488,7 @@
   .banner-1 {
     height: 40rem;
     padding: 8rem 5rem !important;
-    background-image: url("../images/pexels-umaraffan499-87236.jpg");
+    background-image: url("../images/pexels-umaraffan499-87236-min.jpg");
     background-color: #0f020299;
     background-blend-mode: overlay;
     background-size: cover;
@@ -498,7 +498,7 @@
   .banner-2 {
     height: 40rem;
     padding: 8rem 5rem !important;
-    background-image: url("../images/container-operation-port-series.jpg");
+    background-image: url("../images/container-operation-port-series-min.jpg");
     background-color: #0f020299;
     background-blend-mode: overlay;
     background-size: cover;
@@ -506,7 +506,7 @@
   .banner-3 {
     height: 40rem;
     padding: 8rem 5rem !important;
-    background-image: url("../images/aerial-view-cargo-ship-cargo-container-harbor\ \(1\).jpg");
+    background-image: url("../images/aerial-view-cargo-ship-cargo-container-harbor\ \(1\)-min.jpg");
     background-color: #0f020299;
     background-blend-mode: overlay;
     background-size: cover;
@@ -620,7 +620,7 @@
   }
   /* why section styling */
   .why-section {
-    background-image: url("../images/pexels-tom-fisk-3338019.jpg");
+    background-image: url("../images/pexels-tom-fisk-3338019-min.jpg");
     background-size: cover;
     background-color: rgba(14, 0, 0, 0.884);
     background-blend-mode: overlay;
@@ -636,12 +636,12 @@
  }
  /* provision section styling */
  .ps-1{
-  background-image: url('../images/pexels-umaraffan499-87236.jpg');
+  background-image: url('../images/pexels-umaraffan499-87236-min.jpg');
   background-size: cover;
   height: 30rem;
  }
  .ps-2{
-  background-image: url('../images/container-operation-port-series.jpg');
+  background-image: url('../images/container-operation-port-series-min.jpg');
   background-size: cover;
   height: 30rem;
  }
@@ -748,7 +748,7 @@
     font-size: 1.2rem;
   }
   .works{
-    background-image: url('../images/industrial-port-container-yard.jpg');
+    background-image: url('../images/industrial-port-container-yard-min.jpg');
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
@@ -769,7 +769,7 @@
   .banner-1 {
     height: 40rem;
     padding: 8rem 2rem !important;
-    background-image: url("../images/pexels-alexander-bobrov-3278012.jpg");
+    background-image: url("../images/pexels-umaraffan499-87236-min.jpg");
     background-color: #01050399;
     background-blend-mode: overlay;
     background-size: cover;
@@ -777,7 +777,7 @@
   .banner-2 {
     height: 40rem;
     padding: 8rem 2rem !important;
-    background-image: url("../images/dredger-2431190_1920.jpg");
+    background-image: url("../images/container-operation-port-series-min.jpg");
     background-color: #01050399;
     background-blend-mode: overlay;
     background-size: cover;
@@ -785,7 +785,7 @@
   .banner-3 {
     height: 40rem;
     padding: 8rem 2rem !important;
-    background-image: url("../images/pexels-tom-fisk-3338019.jpg");
+    background-image: url("../images/pexels-tom-fisk-3338019-min.jpg");
     background-color: #01050399;
     background-blend-mode: overlay;
     background-size: cover;

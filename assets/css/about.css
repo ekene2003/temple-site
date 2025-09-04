@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../images/pexels-tom-fisk-3338019.jpg");
+    background-image: url("../images/pexels-tom-fisk-3338019-min.jpg");
     background-position: center;
     height: 10rem;
     background-size: cover;
@@ -121,7 +121,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../images/pexels-tom-fisk-3338019.jpg");
+    background-image: url("../images/pexels-tom-fisk-3338019-min.jpg");
     background-position: center;
     height: 10rem;
     background-size: cover;
@@ -226,7 +226,7 @@
   }
 
   .oilvid-section {
-    background-image: url('../images/industrial-port-container-yard.jpg');
+    background-image: url('../images/industrial-port-container-yard-min.jpg');
     background-size: cover;
     height: 100vh;
     background-color: rgb(44, 43, 43);
