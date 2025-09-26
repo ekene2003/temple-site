@@ -12,13 +12,12 @@
 p {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-optical-sizing: auto;
-
   font-style: normal;
 }
 
 h1,
 h2,
-h3 {
+h3,h4,h5 {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -308,17 +307,16 @@ h3 {
 
   /* about section styling */
   .about-section {
-    /* padding: 5rem 0; */
-    background-color: #fcf8f2;
+  
   }
 
   .about-left {
-    display: flex;
-    flex-direction: column;
-    /* gap: 1rem; */
+    
     position: relative;
   }
-
+ .ts{
+  margin: 0;
+ }
   .about-right {
     padding-top: 3rem;
     flex-direction: column;
@@ -342,7 +340,6 @@ h3 {
   }
   .about-left {
   position: relative;
-
 }
 
 .a-img {
@@ -720,7 +717,9 @@ margin-top: 1rem;
 
 .about-l{
   position: relative;
-
+}
+.about-left{
+  position: relative;
 }
 .a-img {
   width: 20rem !important;
