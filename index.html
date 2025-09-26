@@ -19,20 +19,14 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="loader">
+        <!-- <div class="loader">
             <img src="/assets/images/Screenshot 2025-08-13 152624.png " alt="" class="load-img fa-bounce border-0 rounded-circle ">
-        </div> 
-        
+        </div>  -->
         <!-- header -->
-           <nav class="navbar navbar-expand-lg bg-white w-100 ">
+        <nav class="navbar navbar-expand-lg bg-white w-100 ">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html">
-                    <img
-                        src="./assets/images/Screenshot 2025-08-13 152718.png"
-                        alt="brand-logo"
-                        width="200"
-                        class=""
-                    >
+                    <img src="./assets/images/Screenshot 2025-08-13 152718.png" alt="brand-logo" class="nav-logo">
                 </a>
                 <button
                     class="navbar-toggler border-0"
@@ -60,7 +54,6 @@
                         <li class="nav-item">
                             <a class="nav-link" href="./about.html">About</a>
                         </li>
-                      
                         <li class="nav-item dropdown">
                             <a
                                 class="nav-link dropdown-toggle"
@@ -74,7 +67,7 @@
                             <ul class="dropdown-menu">
                                 <li>
                                     <a class="dropdown-item" href="./compliance.html">
-                                      Compliance & Operational Integrity
+                                        Compliance & Operational Integrity
                                     </a>
                                 </li>
                                 <li>
@@ -107,20 +100,20 @@
                         </li>
                     </ul>
                     <a href="./contact.html" class=" ms-lg-5">
-                        <button class="subscribe-btn">Subscribe</button>
+                        <button class="subscribe-btn text-capitalize p-3">Contact us</button>
                     </a>
                 </div>
             </div>
         </nav>
         <!-- hero-section -->
         <section class="hero-section">
-            <div id="carouselExampleIndicators" class="carousel slide">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-fade">
                 <div class="carousel-indicators">
                     <button
                         type="button"
                         data-bs-target="#carouselExampleIndicators"
                         data-bs-slide-to="0"
-                        class="active "
+                        class="active d-none"
                         aria-current="true"
                         aria-label="Slide 1"
                     ></button>
@@ -129,19 +122,22 @@
                         data-bs-target="#carouselExampleIndicators"
                         data-bs-slide-to="1"
                         aria-label="Slide 2"
+                        class=" d-none"
                     ></button>
                     <button
                         type="button"
                         data-bs-target="#carouselExampleIndicators"
                         data-bs-slide-to="2"
                         aria-label="Slide 3"
+                        class=" d-none"
+
                     ></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <div class="row tab-hero">
+                        <div class="row tab-hero align-items-center">
                             <div class="banner-1 col-md-8  d-flex justify-content-center flex-column">
-                                <div class="container">
+                                <div class="container-fluid">
                                     <h1 class="tittle">
                                         Welcome to
                                         <br>
@@ -175,9 +171,9 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <div class="row">
+                        <div class="row align-items-center">
                             <div class="banner-2 col-md-8 d-flex justify-content-center flex-column">
-                                <div class="container">
+                                <div class="container-fluid">
                                     <h1 class="tittle">
                                         Welcome to
                                         <br>
@@ -211,9 +207,9 @@
                         </div>
                     </div>
                     <div class="carousel-item ">
-                        <div class="row">
+                        <div class="row align-items-center">
                             <div class="banner-3 col-md-8  d-flex justify-content-center flex-column">
-                                <div class="container">
+                                <div class="container-fluid">
                                     <h1 class="tittle">
                                         Welcome to
                                         <br>
@@ -237,7 +233,7 @@
                                 </div>
                             </div>
                             <div class="col-md-4 banner-right  d-flex justify-content-center flex-column">
-                                <h3 class="b-right-h mt-lg-5 mt-md-4 mt-sm-3 text-center">
+                                <h3 class="b-right-h mt-sm-3 text-center">
                                     Our Business
                                 </h3>
                                 <p class="b-right-p text-center mt-3  text-light text-capitalize">
@@ -255,67 +251,71 @@
                     </div>
                 </div>
                 <button
-                    class="carousel-control-prev pre-btn"
+                    class="carousel-control-prev pre-btn "
                     type="button"
                     data-bs-target="#carouselExampleIndicators"
                     data-bs-slide="prev"
                 >
-                    <span class="carousel-control-prev-icon  " aria-hidden="true"></span>
+                    <span class="carousel-control-prev-icon border  p-4 rounded-4 " aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
                 <button
-                    class="carousel-control-next next-btn "
+                    class="carousel-control-next next-btn rounded-2"
                     type="button"
                     data-bs-target="#carouselExampleIndicators"
                     data-bs-slide="next"
                 >
-                    <span class="carousel-control-next-icon  " aria-hidden="true"></span>
+                    <span class="carousel-control-next-icon  border  p-4 rounded-4   " aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
         </section>
         <!-- about section -->
-        <section class="about-section py-5" id="about" loading="lazy">
-            <div class="container">
+        <section class="about-section py-5 bg-white" id="about" loading="lazy">
+            <div class="container-fluid">
                 <div class="row">
-                    <h1 class="about-title">About Us</h1>
-                    <div class="line p-0">
+                    <h1 class="about-title fs-2">About Us</h1>
+                    <div class="line p-0 w-25 d-none d-lg-block d-md-block ms-3">
                         <div class="dot"></div>
                     </div>
-                    <div class="tab-about row">
-<div class="col-md-6 about-right">
-                        <a href="./about.html" class="text-decoration-none">
-                            <p class="fs-1 about-b blue">
-                                Your Trusted Partner in Oil & Gas Logistics and Engineering
-                            </p>
-                        </a>
-                    </div>
-                    <div class="col-md-6 about-left">
-                       
-                        <p class="about-p">
-                            Falcon Point Service Limited is a Nigerian-based company delivering a full suite of oil and gas support services, with a strong presence across West Africa. We specialize in vessel management, offshore logistics, civil and engineering works, and global cargo transport.
+                    <div class="tab-about row align-items-center">
+                        <div class="col-md-8 about-right">
+                            <a href="./about.html" class="text-decoration-none">
+                                <h1 class="fs-1 about-b blue">
+                                    Your Trusted Partner in Oil & Gas Logistics and Engineering
+                                </h1>
+                                   <p class="about-p mt-3 text-center text-md-start text-lg-start">
+                                Falcon Point Service Limited is a Nigerian-based company delivering a full suite of oil and gas support services, with a strong presence across West Africa. We specialize in vessel management, offshore logistics, civil and engineering works, and global cargo transport.
             
             Our team combines extensive experience with a deep understanding of both international standards and local operating conditions. Whether managing complex offshore operations or ensuring timely cargo delivery, we are committed to achieving superior outcomes safely, efficiently, and in full regulatory compliance.
             
             We pride ourselves on our operational integrity, commitment to safety, and a hands-on approach that ensures every project meets client expectations and industry benchmarks.
-                        </p>
+                            </p>
+                            </a>
+                          
+                           
+                        </div>
+                        <div class="col-md-4 about-l">
+                         <div class="ab-img-wrap">
+                            <img src="./assets/images/aerial-view-cargo-ship-cargo-container-harbor (1)-min.jpg" alt="" class="a-img">
+                            <img src="./assets/images/cargo-container-ship-min.jpg" alt="" class="a-img2">
+                         </div>
+                        </div>
                     </div>
-                    </div>
-                    
                 </div>
             </div>
         </section>
         <!-- vision section -->
         <section class="vision-2 h-100 py-5">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-4 ">
+            <div class="container-fluid">
+                <div class="row align-items-center tab-hero">
+                    <div class="col-md-4 tab-v2">
                         <h1 class="text-capitalize text-light text-center text-md-start">
                             Driven by Purpose, Committed to Excellence
                         </h1>
                         <img src="./assets/images/bg-map.png" alt="" class="mt-5 w-75 vision-img">
                     </div>
-                    <div class="col-md-4 mt-md-5">
+                    <div class="col-md-4 mt-md-5 tab-v2">
                         <div class="vision-wrap rounded-4 me-lg-4 me-md-2 d-flex flex-column justify-content-center align-items-center">
                             <img src="./assets/images/icon__imagebox1.png" alt="" class="w-25">
                             <h2 class="about-title text-center mt-1">
@@ -330,7 +330,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-md-4 mt-md-5">
+                    <div class="col-md-4 mt-md-5 tab-v2">
                         <div class="vision-wrap d-flex rounded-4 flex-column justify-content-center align-items-center">
                             <img src="./assets/images/icon__imagebox2.png" class="w-25" alt="">
                             <h2 class="about-title text-center mt-1 ">
@@ -349,10 +349,10 @@
         </section>
         <!-- why section -->
         <section class="why-section py-5 rounded-bottom-5" loading="lazy">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row d-flex align-items-center">
                     <div class="col-md-6">
-                        <h1 class="text-center text-md-start  why-h " data-aos="fade-right" data-aos-duration="2000">
+                        <h1 class="text-center text-md-start why-h " data-aos="fade-right" data-aos-duration="2000">
                             Why Choose Falcon Point?
                         </h1>
                     </div>
@@ -375,19 +375,48 @@
                 </div>
             </div>
         </section>
+         <section class="company py-5">
+              <div class="container-fluid">
+                <div class="row">
+                  <h1 class="blue fw-bold">
+                    Companies that trust our services
+                  </h1>
+                  <div class=" mt-5 justify-content-between d-flex flex-wrap gap-3 ">
+                    <div class="">
+                      <img src="./assets/images/Shell-logo-1.png" alt="" class="company-logo">
+                    </div>
+                    <div class="">
+                      <img src="./assets/images/Frame-10-logo.png" alt="" class="company-logo">
+                    </div>
+                    <div class="">
+                      <img src="./assets/images/sea_guardian_ltd_logo.png.png" alt="" class="company-logo">
+                    </div>
+                    <div class="">
+                      <img src="./assets/images/White-dove-Shipping.png" alt="" class="company-logo">
+                    </div>
+                    <div class="">
+                      <img src="./assets/images/image-2b4.png" alt="" class="company-logo">
+                    </div>
+                    <div class="">
+                      <img src="./assets/images/sterling_global_oil_resources_ltd_lagos_nigeria_logdo.png" alt="" class="company-logo">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
         <!-- services section -->
         <section class="service-section py-5 " id="service" loading="lazy">
-            <div class="container">
-                <div class="row">
-                    <div class="line">
-                        <div class="dot"></div>
-                    </div>
+            <div class="container-fluid">
+                <div class="row ">
                     <h1 class="service-h blue" data-aos="fade-right" data-aos-duration="2000">
                         Our
                         <span class="yellow">
                             Services
                         </span>
                     </h1>
+                    <div class="line w-50 ms-3">
+                        <div class="dot w-25"></div>
+                    </div>
                     <p class="service-p grey mb-5">
                         We provide client-specific Vessel Management & Port Solutions,
           Operational Support, Logistics and Civil/Engineering Works, Supply,
@@ -402,28 +431,31 @@
                                     type="button"
                                     data-bs-target="#carouselExampleIndicators"
                                     data-bs-slide-to="0"
-                                    class="active"
+                                    class="active d-none"
                                     aria-current="true"
                                     aria-label="Slide 1"
+                                
                                 ></button>
                                 <button
                                     type="button"
                                     data-bs-target="#carouselExampleIndicators"
                                     data-bs-slide-to="1"
                                     aria-label="Slide 2"
+                                    class=" d-none"
                                 ></button>
                                 <button
                                     type="button"
                                     data-bs-target="#carouselExampleIndicators"
                                     data-bs-slide-to="2"
                                     aria-label="Slide 3"
+                                    class=" d-none"
                                 ></button>
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <div class="row">
-                                        <div class="container-fluid d-flex row-cols-md-2 service-w">
-                                            <div class="service me-lg-2 row align-items-center">
+                                    <div class="row g-4 g-lg-4 g-md-4 tab-v">
+                                        <div class="col-md-6 tab-v2">
+                                                <div class="service me-lg-2 row align-items-center justify-content-center h-100 p-4">
                                                 <div class="s-left col-md-6 align-items-center d-flex ">
                                                     <img src="./assets/images/r5lr_0qw5_211112.jpg" alt="" class="w-100">
                                                 </div>
@@ -435,7 +467,9 @@
                                                         We integrate strict regulatory compliance and operational best practices into every service we deliver, ensuring performance with accountability.
                                                     </div>
                                                 </div>
-                                                <div class="service row align-items-center">
+                                        </div>
+                                        <div class="col-md-6 tab-v2">
+                                              <div class="service row align-items-center h-100 p-4">
                                                     <div class="s-left col-md-6 align-items-center d-flex ">
                                                         <img src="./assets/images/8960493_4025163.jpg" alt="" class="w-100">
                                                     </div>
@@ -449,18 +483,17 @@
                                                         </p>
                                                     </div>
                                                 </div>
-                                            </div>
+                                        </div>
                                         </div>
                                     </div>
                                     <div class="carousel-item">
-                                        <div class="row">
-                                            <div class="container-fluid d-flex row-cols-md-2 service-w">
-                                                <div class="service row align-items-center">
-                                                    <div class="s-left col-md-6 align-items-center d-flex ">
+                                        <div class="row g-4 g-lg-5 g-md-5 tab-v">
+                                            <div class="col-md-6 tab-v2">
+                                             <div class="service row align-items-center h-100 p-4 ">
+                                                    <div class="s-left col-md-6">
                                                         <img src="./assets/images/19962559_6181570.jpg" alt="" class="w-100">
                                                     </div>
-                                                    <div class="service-writeups col-md-6 text-start align-items-center">
-                                                        <!-- <i class="fa fa-tools"></i> -->
+                                                    <div class="service-writeups col-md-6 ">                
                                                         <h2 class="service-sub  text-start">
                                                             Global Cargo Transport
                                                         </h2>
@@ -469,26 +502,29 @@
                                                         </p>
                                                     </div>
                                                 </div>
-                                                <div class="service row align-items-center">
-                                                    <div class="s-left col-md-6 align-items-center d-flex ">
+                                            </div>
+                                            <div class="col-md-6 tab-v2">
+                                                  <div class="service row align-items-center h-100 p-4">
+                                                    <div class="s-left col-md-6">
                                                         <img src="./assets/images/7454030_3643521.jpg" alt="" class="w-100">
                                                     </div>
                                                     <div class="service-writeups col-md-6 text-start align-items-center">
                                                         <!-- <i class="fa fa-tools"></i> -->
                                                         <h2 class="service-sub  text-start">
-                                                            Offshore Support, Logistics & Civil/Engineering Works
+                                                            Offshore Support, Logistics
                                                         </h2>
                                                         <p class="grey text-start p-0">We support your offshore operations with thorough planning, real-time response, and dependable execution.</p>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+                                    
                                     </div>
-                                    <div class="carousel-item">
-                                        <div class="row">
-                                            <div class="container-fluid d-flex row-cols-md-2  ">
-                                                <div class="service row align-items-center">
-                                                    <div class="s-left col-md-6 align-items-center d-flex ">
+                                    <div class="carousel-item ">
+                                        <div class="row g-4 g-lg-5 g-md-5 tab-v">
+                                             <div class="col-md-6 tab-v2">
+                                                <div class="service row align-items-center p-4">
+                                                    <div class=" col-md-6 align-items-center d-flex ">
                                                         <img src="./assets/images/13717669_5325581.jpg" alt="" class="w-100">
                                                     </div>
                                                     <div class="service-writeups col-md-6 text-start align-items-center">
@@ -502,8 +538,26 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                               <div class="col-md-6 tab-v2">
+                                                <div class="service row align-items-center p-4">
+                                                    <div class=" col-md-6 align-items-center d-flex ">
+                                                        <img src="./assets/images/7416549_4786.svg" alt="" class="w-100">
+                                                    </div>
+                                                    <div class="service-writeups col-md-6 text-start align-items-center">
+                                                        <!-- <i class="fa fa-tools"></i> -->
+                                                        <h2 class="service-sub  text-start">
+                                                            Civil/Engineering Works
+                                                        </h2>
+                                                        <p class="grey text-start">
+                                                            At Falcon Point Services, we combine civil construction expertise with advanced engineering solutions to support the oil and gas industry across West Africa. 
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
+                                         
                                     </div>
+                                    
                                 </div>
                                 <button
                                     class="carousel-control-prev round bg-dark rounded-pill p-1   service-pre-btn"
@@ -530,7 +584,7 @@
                 </div>
             </section>
             <section class="works py-5">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row align-items-center">
                         <h1 class="text-light">
                             Oil company
@@ -587,35 +641,12 @@
                     </div>
                 </div>
             </section>
-            <section class="">
-                <div class="">
-                    <div class="row ">
-                        <div class="col-md-6 ps-1"></div>
-                        <div class="col-md-6 bg-white ps-writeups p-4">
-                            <h1 class="blue fs-1">
-                                Regional Logistics & Cargo Excellence
-                            </h1>
-                            <p class="grey">
-                                We provide:
-                            </p>
-                            <ul class="fs-5">
-                                <li>
-                                    Reliable cargo services
-                                </li>
-                                <li>
-                                    Prompt fixtures and real-time dispatch
-                                </li>
-                                <li>
-                                    Efficient fulfilment across offshore and onshore locations
-                                </li>
-                                <li>
-                                    Hands-on regional control and local presence
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row align-items-center">
-                        <div class="col-md-6 bg-white ps-writeups p-5 ">
+           
+             <section class="region py-5">
+                <div class="container-fluid">
+                    <div class="row align-items-end">
+                      <div class="row align-items-center">
+                        <div class="col-md-6 bg-white  ps-writeups p-5 ">
                             <h1 class="blue fs-1">
                                 Our Commitment to Safety & Environmental Responsibility
                             </h1>
@@ -633,15 +664,16 @@
                                     Continuous Staff Training
                                 </li>
                             </ul>
-                        </div>
-                        <div class="col-md-6 ps-2  "></div>
+                        </div>  
                     </div>
+                    </div>
+                    
                 </div>
             </div>
-        </section>
-        <!-- more writeups -->
+        </section> 
+         <!-- more writeups -->
         <section class="write-up-sec py-5">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="text-center">
                         <p class="text-light fs-5">
@@ -652,7 +684,7 @@
             </div>
         </section>
         <!-- contact section -->
-        <section class="contact-section" id="contact">
+        <section class="contact-section overflow-x-hidden" id="contact">
             <div class=" ">
                 <div class="row align-items-center">
                     <div class="col-md-6 contact-l">
@@ -698,7 +730,7 @@
         </section>
         <!-- footer -->
         <footer class="footer py-5">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-4">
                         <div class="brand-footer d-flex  align-items-center ">
