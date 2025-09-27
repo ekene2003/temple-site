@@ -173,9 +173,10 @@ h3,h4,h5 {
     padding: 1rem 0.9rem !important;
     z-index: 999;
     background-color: white !important;
+    position: fixed;
   }
     .nav-logo {
-    height: 4rem;
+    height: 4.5rem;
   }
   .navbar-nav {
     width: 100% !important;
@@ -235,6 +236,7 @@ h3,h4,h5 {
     background-size: cover;
     background-position: center;
     text-align: center;
+    margin-top: 8rem;
   }
 
   .banner-2 {
@@ -245,7 +247,8 @@ h3,h4,h5 {
     background-blend-mode: overlay;
     background-size: cover;
     text-align: center;
-
+    margin-top: 8rem;
+    
   }
 
   .banner-3 {
@@ -256,7 +259,8 @@ h3,h4,h5 {
     background-blend-mode: overlay;
     background-size: cover;
     text-align: center;
-
+    margin-top: 8rem;
+    
   }
 
   .banner-right {
@@ -297,7 +301,7 @@ h3,h4,h5 {
   .pre-btn,
   .next-btn {
     position: absolute;
-    top: 57rem;
+    top: 66rem;
   }
 
   .pre-btn {
@@ -591,7 +595,8 @@ margin-top: 1rem;
 
   /* header styling */
   .nav-logo {
-    height: 4rem;
+    height: 5rem;
+    object-fit: cover;
   }
 
   .navbar {
