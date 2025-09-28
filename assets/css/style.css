@@ -284,7 +284,7 @@ h3,h4,h5 {
   .banner-right {
     background-color: #002d4b;
     padding: 2rem 2.5rem;
-    height: 28rem;
+    height: 30rem;
   }
 
   .tittle {
@@ -319,7 +319,7 @@ h3,h4,h5 {
   .pre-btn,
   .next-btn {
     position: absolute;
-    top: 66rem;
+    top: 58rem;
   }
 
   .pre-btn {
