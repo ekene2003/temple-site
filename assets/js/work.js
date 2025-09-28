@@ -27,12 +27,19 @@ window.addEventListener("scroll", function() {
 });
 
 
-    let loader = document.querySelector(".loader2");
-    window.addEventListener("load", vanish);
+    // let loader = document.querySelector(".loader2");
+    // window.addEventListener("load", vanish);
 
-    function vanish() {
-      loader.classList.add("disappear");
-    }
+    // function vanish() {
+    //   loader.classList.add("disappear");
+    // }
+    
+
+document.addEventListener("DOMContentLoaded", function() {
+  const preloader = document.querySelector(".loader2");
+  preloader.classList.add("disappear");
+});
+
     var TxtType = function (el, toRotate, period) {
       this.toRotate = toRotate;
       this.el = el;
