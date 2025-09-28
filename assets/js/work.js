@@ -27,18 +27,17 @@ window.addEventListener("scroll", function() {
 });
 
 
-    // let loader = document.querySelector(".loader2");
-    // window.addEventListener("load", vanish);
-
-    // function vanish() {
-    //   loader.classList.add("disappear");
-    // }
-    
 
 document.addEventListener("DOMContentLoaded", function() {
-  const preloader = document.querySelector(".loader2");
-  preloader.classList.add("disappear");
+  const loader = document.querySelector(".loader2");
+
+  // Fake loading delay (adjust time in ms: 2000 = 2 seconds)
+  setTimeout(() => {
+    loader.classList.add("disappear");
+  }, 3000);
 });
+
+
 
     var TxtType = function (el, toRotate, period) {
       this.toRotate = toRotate;
