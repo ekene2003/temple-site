@@ -31,11 +31,16 @@ window.addEventListener("scroll", function() {
 document.addEventListener("DOMContentLoaded", function() {
   const loader = document.querySelector(".loader2");
 
-  // Fake loading delay (adjust time in ms: 2000 = 2 seconds)
   setTimeout(() => {
     loader.classList.add("disappear");
-  }, 3000);
+
+    // After fade-out, remove it completely so nothing blocks scripts
+    loader.addEventListener("animationend", () => {
+      loader.style.display = "none";
+    });
+  }, 4000); // fake loading time (adjust as you like)
 });
+
 
 
 
